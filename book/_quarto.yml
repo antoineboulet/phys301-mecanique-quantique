@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: ../_site/book
+  output-dir: ../_site/notes
 
 lang: fr
 
@@ -9,9 +9,9 @@ book:
   subtitle: "Support de cours — PHYS301"
   author: "Antoine Boulet"
   date: today
-  site-url: "https://antoineboulet.github.io/PHYS301-mecanique-quantique/book/"
-  repo-url: "https://github.com/AntoineBoulet/PHYS301-mecanique-quantique"
+  site-url: "https://antoineboulet.github.io/phys301-mecanique-quantique/book/"
   downloads: [pdf, epub]
+
 
   chapters:
     - index.qmd
@@ -25,10 +25,6 @@ bibliography: references.bib
 
 format:
   html:
-    theme:
-      - cosmo
-      - ../system/styles/site.scss
-    css: ../system/styles/site.css
     toc: true
 
   pdf:
@@ -42,4 +38,11 @@ format:
 
 # Métadonnées partagées (auteur, affiliation, etc.) issues du submodule
 metadata-files:
-  - ../system/metadata/author.yml
+  - system/fragments/default-header.yml
+  - system/fragments/default-theme.yml
+  - system/fragments/default-book.yml
+  - system/fragments/book-header.yml
+  - system/fragments/book-theme.yml
+  - system/fragments/book-website.yml
+  - system/fragments/book-navbar-fr.yml
+  - system/fragments/lang-fr.yml

@@ -12,3 +12,5 @@ Ce site rassemble les ressources du cours **PHYS301 — Mécanique Quantique** :
 - d'autres [ressources complémentaires](ressources/cours.qmd).
 
 > Contenu à compléter.
+
+NOTES/DIAPO
