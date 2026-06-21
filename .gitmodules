@@ -1,3 +1,6 @@
 [submodule "page/system"]
 	path = page/system
 	url = https://github.com/AntoineBoulet/sites-commons.git
+[submodule "book/system"]
+	path = book/system
+	url = https://github.com/AntoineBoulet/sites-commons.git
