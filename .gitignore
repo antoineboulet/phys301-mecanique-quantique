@@ -1,0 +1,20 @@
+.quarto/
+_site/
+/.luarc.json
+*.bat
+
+# Book : artefacts intermédiaires de rendu LaTeX/EPUB
+book/_book/
+book/*.log
+book/*.aux
+book/*.toc
+
+# Système
+.DS_Store
+*.Rproj.user
+.Rhistory
+
+# Environnements Python locaux éventuels
+.venv/
+__pycache__/
+

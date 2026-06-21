@@ -1,0 +1,45 @@
+project:
+  type: book
+  output-dir: ../_site/book
+
+lang: fr
+
+book:
+  title: "Mécanique Quantique"
+  subtitle: "Support de cours — PHYS301"
+  author: "Antoine Boulet"
+  date: today
+  site-url: "https://antoineboulet.github.io/PHYS301-mecanique-quantique/book/"
+  repo-url: "https://github.com/AntoineBoulet/PHYS301-mecanique-quantique"
+  downloads: [pdf, epub]
+
+  chapters:
+    - index.qmd
+    - chapters/01-postulats.qmd
+    - chapters/02-systemes-simples.qmd
+    - chapters/03-moment-cinetique.qmd
+    - chapters/04-perturbations.qmd
+    - chapters/references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - ../system/styles/site.scss
+    css: ../system/styles/site.css
+    toc: true
+
+  pdf:
+    documentclass: scrbook
+    toc: true
+    lof: false
+    lot: false
+
+  epub:
+    toc: true
+
+# Métadonnées partagées (auteur, affiliation, etc.) issues du submodule
+metadata-files:
+  - ../system/metadata/author.yml

@@ -1,0 +1,12 @@
+---
+title: "Slides"
+---
+
+## Supports de présentation
+
+> Contenu à compléter : liste des slides par séance/chapitre, avec liens vers les fichiers (HTML reveal.js ou PDF).
+
+| Séance | Sujet | Lien |
+|---|---|---|
+| 1 | À définir | |
+| 2 | À définir | |

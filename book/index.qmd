@@ -1,0 +1,3 @@
+# Préface {.unnumbered}
+
+> Contenu à compléter : présentation générale du cours, objectifs, plan, conventions de notation utilisées dans l'ouvrage.

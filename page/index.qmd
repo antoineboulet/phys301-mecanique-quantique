@@ -1,0 +1,14 @@
+---
+title: "PHYS301 — Mécanique Quantique"
+---
+
+## Bienvenue
+
+Ce site rassemble les ressources du cours **PHYS301 — Mécanique Quantique** :
+
+- le [cours complet au format livre](../book/index.html) ;
+- les [supports de slides](ressources/slides.qmd) ;
+- les [feuilles d'exercices](ressources/exercices.qmd) ;
+- d'autres [ressources complémentaires](ressources/cours.qmd).
+
+> Contenu à compléter.

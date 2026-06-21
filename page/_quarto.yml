@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: ../_site
+
+lang: fr
+
+website:
+  navbar:
+    right:
+      - text: "**mécanique quantique**"
+        href: https://antoineboulet.github.io/phys301-mecanique-quantique/
+
+  sidebar: false
+
+
+metadata-files:
+  - ../system/fragments/default-header.yml
+  - ../system/fragments/default-theme.yml
+  - ../system/fragments/default-website.yml
+  - ../system/fragments/page-header.yml
+  #- ../system/fragments/page-theme.yml
+  - ../system/fragments/page-website.yml
+  - ../system/fragments/main-navbar-fr.yml
+  - ../system/fragments/lang-fr.yml

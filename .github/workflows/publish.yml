@@ -1,0 +1,75 @@
+name: Publish PHYS301 site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (avec submodules figés au commit référencé)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+        # Note : le submodule system/ est volontairement figé au commit
+        # référencé dans l'index git, et n'est PAS mis à jour automatiquement
+        # vers la dernière version de quarto-shared à chaque build.
+        # Pour le faire évoluer, mettre à jour manuellement en local :
+        #   git submodule update --remote system
+        #   git add system && git commit -m "Update system submodule"
+        #   git push
+        # Cela évite qu'un changement dans quarto-shared casse ce site
+        # (ou les autres sites qui en dépendent) sans action explicite.
+
+      - name: Installer Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+
+      - name: Installer Python (si besoin pour exécuter du code dans les .qmd)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render du site (page/)
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: page
+
+      - name: Render du livre (book/) — HTML, PDF, EPUB
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: book
+
+      - name: Vérifier la structure de sortie combinée
+        run: |
+          echo "Contenu de _site/ :"
+          find _site -maxdepth 2
+
+      - name: Upload de l'artifact Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Déploiement sur GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
