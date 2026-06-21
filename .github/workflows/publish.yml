@@ -48,10 +48,10 @@ jobs:
         with:
           path: page
 
-      - name: Render du livre (book/) — HTML, PDF, EPUB
+      - name: Render du livre (notes/) — HTML, PDF, EPUB
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          path: book
+          path: notes
 
       - name: Vérifier la structure de sortie combinée
         run: |
