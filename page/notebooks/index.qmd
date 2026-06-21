@@ -1,0 +1,7 @@
+---
+title: "Notebooks"
+---
+
+Notebooks Jupyter pour les travaux pratiques. Quarto les rend directement en HTML (exécutés ou en cache selon la configuration).
+
+- [TP 1](tp1.ipynb)

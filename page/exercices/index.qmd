@@ -1,0 +1,9 @@
+---
+title: "Exercices"
+page-layout: full
+---
+
+Feuilles de TD, classées par thème.
+
+- [TD 1](td1.qmd)
+- [TD 2](td2.qmd)

@@ -9,9 +9,16 @@ book:
   subtitle: "Support de cours — PHYS301"
   author: "Antoine Boulet"
   date: today
-  site-url: "https://antoineboulet.github.io/phys301-mecanique-quantique/book/"
-  downloads: [pdf, epub]
+  site-url: "https://antoineboulet.github.io/phys301-mecanique-quantique/"
+  downloads: [pdf]
 
+  navbar:
+    right:
+      - text: "**mécanique quantique**"
+        href: https://antoineboulet.github.io/phys301-mecanique-quantique/
+        
+  sidebar:
+    style: docked
 
   chapters:
     - index.qmd
@@ -23,6 +30,11 @@ book:
 
 bibliography: references.bib
 
+
+comments:
+  hypothesis: true
+
+
 format:
   html:
     toc: true
@@ -33,8 +45,6 @@ format:
     lof: false
     lot: false
 
-  epub:
-    toc: true
 
 # Métadonnées partagées (auteur, affiliation, etc.) issues du submodule
 metadata-files:

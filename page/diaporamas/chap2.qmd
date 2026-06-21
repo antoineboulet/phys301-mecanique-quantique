@@ -1,0 +1,11 @@
+---
+title: "Chapitre 2 — Postulats"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+---
+
+## Plan
+
+...

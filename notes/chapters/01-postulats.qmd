@@ -1,8 +1,22 @@
+---
+margin-header: |
+  ::: {.callout-note}
+  📄 [Exercices de TD](td1.pdf)
+  :::
+
+margin-footer: |
+  ::: {.callout-note}
+  📄 [Exercices de TD](td1.pdf)
+  :::
+---
+
 # Postulats de la mécanique quantique
 
 > Contenu à compléter.
 
 ## Introduction
+
+D'après : [@cohentannoudji1977mecanique]
 
 ## Espace des états
 

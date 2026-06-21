@@ -1,0 +1,18 @@
+---
+title: "Chapitre 1 — Introduction"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+# IMPORTANT : on annule explicitement le format pdf hérité du _quarto.yml global,
+# sinon Quarto tente aussi de rendre cette page en PDF (classe scrreprt), ce qui n'a pas de sens pour un slide.
+---
+
+## Plan
+
+- Point 1
+- Point 2
+
+## Contexte historique
+
+...

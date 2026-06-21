@@ -1,0 +1,8 @@
+---
+title: "Slides"
+---
+
+Liste des diaporamas utilisés en cours, par chapitre.
+
+- [Chapitre 1 — Introduction](chap1.qmd)
+- [Chapitre 2 — Postulats](chap2.qmd)

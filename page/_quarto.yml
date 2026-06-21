@@ -10,7 +10,25 @@ website:
       - text: "**mécanique quantique**"
         href: https://antoineboulet.github.io/phys301-mecanique-quantique/
 
-  sidebar: false
+  sidebar:
+    style: "docked"
+    collapse-level: 1
+    contents:
+      - text: "Notes de cours"
+        href: https://antoineboulet.github.io/ 
+      - section: "Diaporamas"
+        contents:
+          - diaporamas/chap1.qmd
+          - diaporamas/chap2.qmd
+      - section: "Exercices"
+        contents:
+          - exercices/td1.qmd
+          - exercices/td2.qmd
+      - section: "Notebooks"
+        contents: 
+          - notebooks/index.qmd
+          - notebooks/tp1.ipynb
+
 
 
 metadata-files:
