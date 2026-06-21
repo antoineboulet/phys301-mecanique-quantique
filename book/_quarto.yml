@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: ../_site/notes
+  output-dir: ../_site/book
 
 lang: fr
 
