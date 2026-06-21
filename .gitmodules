@@ -1,0 +1,3 @@
+[submodule "page/system"]
+	path = page/system
+	url = https://github.com/AntoineBoulet/sites-commons.git
