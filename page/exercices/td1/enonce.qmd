@@ -1,22 +1,36 @@
 ---
 title: "TD 1 — Fonction d’onde dans un potentiel"
+subtitle: "sous titre"
+date: "auj"
+#date-format:
 author: Antoine Boulet
+abstract: Résumé ici.
+thanks: merci
+
+cap-location: margin
+page-layout: article
+
 format:
   html:
-    toc: false
+    toc: true
   pdf: 
     documentclass: article
     keep-tex: true
-    include-in-header:
-      text: |
-        \let\mathbfit\undefined
-        \let\mathbfsf\undefined
-        \let\mathsfit\undefined
-        \let\mathbfsfit\undefined
-        \let\mathbfscr\undefined
-        \let\mathbffrak\undefined
-        \usepackage[notextcomp]{stix2}
+    pdf-engine: lualatex
+    mainfont: "STIX Two Text"
+    mathfont: "STIX Two Math"
 
+    subtitle: "sous titre"
+    date: "auj"
+    #date-format:
+    author: Antoine Boulet
+    abstract: Résumé ici.
+    thanks: merci
+
+    fontsize: 12pt
+
+    fig-cap-location: bottom
+    tbl-cap-location: top
 ---
 
 ## Exercice 1 (particule libre)
@@ -36,15 +50,17 @@ On considère une marche de potentiel de hauteur $V_0>0$ telle que :
     \end{cases}
 \end{equation}
 
-a. Chercher les fonctions d'onde des états stationnaires d'une particule d'énergie $E > V_0$.
-b. Déterminer le coefficient de réflexion des particules sur la barrière de potentiel pour des particules d'énergie $E > V_0$.
-c. Étudier les cas limites $E\to\infty$ et $E\to V_0$.
-
-
+::: {.column-margin}
 ::: {.content-visible when-format="html"}
-![Mon diagramme](figures/test.svg){fig-align="center"}
+![Mon diagramme, fonctions d'onde des états stationnaires d'une particule d'énergie, fonctions d'onde des états stationnaires d'une particule d'énergie](figures/test.svg){fig-align="center"}
+:::
 :::
 
 ::: {.content-visible when-format="pdf"}
 ![Mon diagramme](figures/test.pdf){fig-align="center"}
 :::
+
+a. Chercher les fonctions d'onde des états stationnaires d'une particule d'énergie $E > V_0$.
+b. Déterminer le coefficient de réflexion des particules sur la barrière de potentiel pour des particules d'énergie $E > V_0$.
+c. Étudier les cas limites $E\to\infty$ et $E\to V_0$.
+

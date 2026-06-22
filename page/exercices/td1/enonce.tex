@@ -6,6 +6,7 @@
 %
 \documentclass[
   french,
+  12pt,
 ]{article}
 \usepackage{xcolor}
 \usepackage{amsmath,amssymb}
@@ -161,6 +162,10 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
+\makeatletter
+\@ifpackageloaded{sidenotes}{}{\usepackage{sidenotes}}
+\@ifpackageloaded{marginnote}{}{\usepackage{marginnote}}
+\makeatother
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
@@ -176,11 +181,21 @@
   pdfcreator={LaTeX via pandoc}}
 
 
-\title{TD 1 --- Fonction d'onde dans un potentiel}
+\title{TD 1 --- Fonction d'onde dans un potentiel\thanks{merci}}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{sous titre}
 \author{Antoine Boulet}
-\date{}
+\date{Invalid Date}
 \begin{document}
 \maketitle
+\begin{abstract}
+Résumé ici.
+\end{abstract}
 
 
 \subsection{Exercice 1 (particule
@@ -220,6 +235,20 @@ On considère une marche de potentiel de hauteur \(V_0>0\) telle que :
     \end{cases}
 \end{equation}
 
+\marginnote{\begin{footnotesize}
+
+\end{footnotesize}}
+
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{figures/test.pdf}}
+
+}
+
+\caption{Mon diagramme}
+
+\end{figure}%
+
 \begin{enumerate}
 \def\labelenumi{\alph{enumi}.}
 \tightlist
@@ -232,16 +261,6 @@ On considère une marche de potentiel de hauteur \(V_0>0\) telle que :
 \item
   Étudier les cas limites \(E\to\infty\) et \(E\to V_0\).
 \end{enumerate}
-
-\begin{figure}[H]
-
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{figures/test.pdf}}
-
-}
-
-\caption{Mon diagramme}
-
-\end{figure}%
 
 
 
