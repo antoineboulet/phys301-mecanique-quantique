@@ -1,0 +1,10 @@
+format:
+  pdf:
+    documentclass: article
+    keep-tex: true
+    pdf-engine: lualatex
+    mainfont: "STIX Two Text"
+    mathfont: "STIX Two Math"
+    fontsize: 12pt
+    fig-cap-location: bottom
+    tbl-cap-location: top

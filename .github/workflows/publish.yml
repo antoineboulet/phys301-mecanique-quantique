@@ -47,6 +47,8 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
         with:
           path: pages
+        env:
+          QUARTO_PROFILE: pdf
 
       - name: Render du livre (notes/) — HTML, PDF, EPUB
         uses: quarto-dev/quarto-actions/render@v2

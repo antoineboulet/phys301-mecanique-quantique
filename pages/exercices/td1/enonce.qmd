@@ -10,27 +10,6 @@ thanks: merci
 cap-location: margin
 page-layout: article
 
-format:
-  html:
-    toc: true
-  pdf: 
-    documentclass: article
-    keep-tex: true
-    pdf-engine: lualatex
-    mainfont: "STIX Two Text"
-    mathfont: "STIX Two Math"
-
-    subtitle: "sous titre"
-    date: "auj"
-    #date-format:
-    author: Antoine Boulet
-    abstract: Résumé ici.
-    thanks: merci
-
-    fontsize: 12pt
-
-    fig-cap-location: bottom
-    tbl-cap-location: top
 ---
 
 ## Exercice 1 (particule libre)
