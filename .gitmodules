@@ -1,4 +1,4 @@
-[submodule "page/system"]
+[submodule "pages/system"]
 	path = pages/system
 	url = https://github.com/AntoineBoulet/sites-commons.git
 [submodule "notes/system"]

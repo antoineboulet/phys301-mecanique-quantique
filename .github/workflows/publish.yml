@@ -43,10 +43,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Render du site (page/)
+      - name: Render du site (pages/)
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          path: page
+          path: pages
 
       - name: Render du livre (notes/) — HTML, PDF, EPUB
         uses: quarto-dev/quarto-actions/render@v2
