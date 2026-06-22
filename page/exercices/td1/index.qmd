@@ -1,0 +1,50 @@
+---
+title: "TD 1 — Fonction d’onde dans un potentiel"
+author: Antoine Boulet
+format:
+  html:
+    toc: false
+  pdf: 
+    documentclass: article
+    keep-tex: true
+    include-in-header:
+      text: |
+        \let\mathbfit\undefined
+        \let\mathbfsf\undefined
+        \let\mathsfit\undefined
+        \let\mathbfsfit\undefined
+        \let\mathbfscr\undefined
+        \let\mathbffrak\undefined
+        \usepackage[notextcomp]{stix2}
+
+---
+
+## Exercice 1 (particule libre)
+On considère une particule se déplaçant dans une dimension en absence de potentiel.
+
+a. Montrer, par séparation de variable, que la solution de l'équation de Schrödinger peut s'écrire sous la forme $\psi(x,t) = \mathrm{e}^{-\mathrm{i}Et/\hbar}\phi(x)$. Donner l'équation de Schrödinger stationnaire que doit vérifier la fonction d'onde $\phi(x)$.
+b. Montrer qu'il existe une infinité de solution de la forme $\phi(x) = \mathrm{e}^{\mathrm{i}kx}$ où $k$ est un réel à exprimer en fonction de $E$. Discuter l'hypothèse de de Broglie.
+c. En utilisant l'interprétation probabiliste, montrer que, pour une particule d'énergie $E$, la fonction d'onde obtenue n'est pas normalisable et conclure.
+
+## Exercice 2 (marche de potentiel)
+On considère une marche de potentiel de hauteur $V_0>0$ telle que :
+\begin{equation}
+    V(x) = \begin{cases}
+        +V_0 & \text{si~} x > 0
+        \\
+        0 & \text{sinon}
+    \end{cases}
+\end{equation}
+
+a. Chercher les fonctions d'onde des états stationnaires d'une particule d'énergie $E > V_0$.
+b. Déterminer le coefficient de réflexion des particules sur la barrière de potentiel pour des particules d'énergie $E > V_0$.
+c. Étudier les cas limites $E\to\infty$ et $E\to V_0$.
+
+
+::: {.content-visible when-format="html"}
+![Mon diagramme](figures/test.svg){fig-align="center"}
+:::
+
+::: {.content-visible when-format="pdf"}
+![Mon diagramme](figures/test.pdf){fig-align="center"}
+:::

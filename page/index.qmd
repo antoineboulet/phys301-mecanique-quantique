@@ -1,5 +1,9 @@
 ---
 title: "PHYS301 — Mécanique Quantique"
+
+format: 
+    html:
+        css: system/styles/body-sans.css
 ---
 
 ## Bienvenue

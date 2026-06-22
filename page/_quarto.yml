@@ -22,7 +22,7 @@ website:
           - diaporamas/chap2.qmd
       - section: "Exercices"
         contents:
-          - exercices/td1.qmd
+          - exercices/td1/index.qmd
           - exercices/td2.qmd
       - section: "Notebooks"
         contents: 

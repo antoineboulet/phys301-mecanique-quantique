@@ -6,9 +6,7 @@
 %
 \documentclass[
   french,
-  letterpaper,
-  DIV=11,
-  numbers=noendperiod]{scrartcl}
+]{article}
 \usepackage{xcolor}
 \usepackage{amsmath,amssymb}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
@@ -116,7 +114,13 @@
  
 
 
-\KOMAoption{captions}{tableheading}
+\let\mathbfit\undefined
+\let\mathbfsf\undefined
+\let\mathsfit\undefined
+\let\mathbfsfit\undefined
+\let\mathbfscr\undefined
+\let\mathbffrak\undefined
+\usepackage[notextcomp]{stix2}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -162,7 +166,8 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={TD 1 --- Postulats},
+  pdftitle={TD 1 --- Fonction d'onde dans un potentiel},
+  pdfauthor={Antoine Boulet},
   pdflang={fr},
   colorlinks=true,
   linkcolor={blue},
@@ -172,20 +177,72 @@
   pdfcreator={LaTeX via pandoc}}
 
 
-\title{TD 1 --- Postulats}
-\author{}
+\title{TD 1 --- Fonction d'onde dans un potentiel}
+\author{Antoine Boulet}
 \date{}
 \begin{document}
 \maketitle
 
 
-\subsection{Exercice 1}\label{exercice-1}
+\subsection{Exercice 1 (particule
+libre)}\label{exercice-1-particule-libre}
 
-Énoncé\ldots{}
+On considère une particule se déplaçant dans une dimension en absence de
+potentiel.
 
-\subsection{Exercice 2}\label{exercice-2}
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Montrer, par séparation de variable, que la solution de l'équation de
+  Schrödinger peut s'écrire sous la forme
+  \(\psi(x,t) = \mathrm{e}^{-\mathrm{i}Et/\hbar}\phi(x)\). Donner
+  l'équation de Schrödinger stationnaire que doit vérifier la fonction
+  d'onde \(\phi(x)\).
+\item
+  Montrer qu'il existe une infinité de solution de la forme
+  \(\phi(x) = \mathrm{e}^{\mathrm{i}kx}\) où \(k\) est un réel à
+  exprimer en fonction de \(E\). Discuter l'hypothèse de de Broglie.
+\item
+  En utilisant l'interprétation probabiliste, montrer que, pour une
+  particule d'énergie \(E\), la fonction d'onde obtenue n'est pas
+  normalisable et conclure.
+\end{enumerate}
 
-Énoncé\ldots{}
+\subsection{Exercice 2 (marche de
+potentiel)}\label{exercice-2-marche-de-potentiel}
+
+On considère une marche de potentiel de hauteur \(V_0>0\) telle que :
+\begin{equation}
+    V(x) = \begin{cases}
+        +V_0 & \text{si~} x > 0
+        \\
+        0 & \text{sinon}
+    \end{cases}
+\end{equation}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Chercher les fonctions d'onde des états stationnaires d'une particule
+  d'énergie \(E > V_0\).
+\item
+  Déterminer le coefficient de réflexion des particules sur la barrière
+  de potentiel pour des particules d'énergie \(E > V_0\).
+\item
+  Étudier les cas limites \(E\to\infty\) et \(E\to V_0\).
+\end{enumerate}
+
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{figures/test.pdf}}
+
+}
+
+\caption{Mon diagramme}
+
+\end{figure}%
 
 
 
