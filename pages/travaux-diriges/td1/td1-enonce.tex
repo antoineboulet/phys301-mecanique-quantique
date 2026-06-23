@@ -162,10 +162,6 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
-\makeatletter
-\@ifpackageloaded{sidenotes}{}{\usepackage{sidenotes}}
-\@ifpackageloaded{marginnote}{}{\usepackage{marginnote}}
-\makeatother
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
@@ -236,20 +232,6 @@ On considère une marche de potentiel de hauteur \(V_0>0\) telle que :
     \end{cases}
 \end{equation}
 
-\marginnote{\begin{footnotesize}
-
-\end{footnotesize}}
-
-\begin{figure}[H]
-
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{figures/test.pdf}}
-
-}
-
-\caption{Mon diagramme}
-
-\end{figure}%
-
 \begin{enumerate}
 \def\labelenumi{\alph{enumi}.}
 \tightlist
@@ -262,6 +244,16 @@ On considère une marche de potentiel de hauteur \(V_0>0\) telle que :
 \item
   Étudier les cas limites \(E\to\infty\) et \(E\to V_0\).
 \end{enumerate}
+
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{figures/test.pdf}}
+
+}
+
+\caption{Mon diagramme, et sa légende.}
+
+\end{figure}%
 
 
 

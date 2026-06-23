@@ -29,6 +29,8 @@ website:
           - notebooks/index.qmd
           - notebooks/tp1.ipynb
 
+filters:
+  - update-system/margin-html-figure.lua
 
 metadata-files:
   - system/fragments/default-header.yml

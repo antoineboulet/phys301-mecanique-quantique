@@ -8,15 +8,9 @@ abstract: Résumé ici.
 cap-location: margin
 page-layout: article
 
-format:
-  html:
-    include-in-header:
-      text: |
-        <style>
-        svg {
-            stroke: var(--text-color);
-            }
-        </style>
+
+filters:
+  - ../../update-system/margin-html-figure.lua
 ---
 
 ## Exercice 1 (particule libre)
@@ -36,15 +30,24 @@ On considère une marche de potentiel de hauteur $V_0>0$ telle que :
     \end{cases}
 \end{equation}
 
+
+<!--
 ::: {.column-margin}
 ::: {.content-visible when-format="html"}
-![Mon diagramme, fonctions d'onde des états stationnaires d'une particule d'énergie, fonctions d'onde des états stationnaires d'une particule d'énergie](figures/test.svg){fig-align="center"}
+::: {.light-content}
+![Mon diagramme, et sa légende.](figures/test-light.svg){fig-align="center"}
+:::
+
+::: {.dark-content}
+![Mon diagramme, et sa légende.](figures/test-dark.svg){fig-align="center"}
+:::
 :::
 :::
 
 ::: {.content-visible when-format="pdf"}
-![Mon diagramme](figures/test.pdf){fig-align="center"}
+![Mon diagramme, et sa légende.](figures/test.pdf){fig-align="center"}
 :::
+-->
 
 a. Chercher les fonctions d'onde des états stationnaires d'une particule d'énergie $E > V_0$.
 b. Déterminer le coefficient de réflexion des particules sur la barrière de potentiel pour des particules d'énergie $E > V_0$.
@@ -53,3 +56,7 @@ c. Étudier les cas limites $E\to\infty$ et $E\to V_0$.
 
 
 
+
+
+::: {.margin-html-figure base="figures/test" caption="Mon diagramme, et sa légende."}
+:::

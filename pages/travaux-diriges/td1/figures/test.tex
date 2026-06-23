@@ -1,12 +1,4 @@
-\documentclass[tikz, border=2pt, 11pt]{standalone}
-\usepackage{fontspec}
-\setmainfont{STIX Two Text}
-\usepackage{unicode-math}
-\setmathfont{STIX Two Math}
-\usepackage{tikz}
-\begin{document}
-\begin{tikzpicture}
-  \draw[thick, ->] (0,0) -- (2,0) node[right] {$x$};
-  \draw[thick, ->] (0,0) -- (0,2) node[above] {$y$};
+\begin{tikzpicture}[font=\footnotesize, x=5cm/100, y=5cm/100]
+  \draw[thick, ->] (0,0) -- (100,0) node[right] {$x$};
+  \draw[thick, ->] (0,0) -- (0,100) node[above] {$y$};
 \end{tikzpicture}
-\end{document}
