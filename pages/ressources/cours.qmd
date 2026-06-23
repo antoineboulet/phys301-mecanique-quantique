@@ -1,9 +1,0 @@
----
-title: "Cours"
----
-
-## Plan du cours
-
-> Contenu à compléter : description des chapitres, objectifs pédagogiques, prérequis, etc.
-
-Le support de référence complet est disponible au format livre : [accéder au livre du cours](../../book/index.html).

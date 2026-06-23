@@ -1,6 +1,10 @@
 ---
 title: "PHYS301 — Mécanique Quantique"
-
+include-in-header:
+  text: |
+    <style>
+    .quarto-title-meta { display: none !important; }
+    </style>
 format: 
     html:
         css: system/styles/body-sans.css

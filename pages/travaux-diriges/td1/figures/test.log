@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.1.6)  22 JUN 2026 13:04
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.1.6)  23 JUN 2026 01:52
  restricted system commands enabled.
 **test.tex
 (./test.tex
@@ -75,8 +75,8 @@ e' class
 )
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(c:/texlive/2025/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+(c:/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from C:/texlive/2025/texmf-var/luat
 ex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count276
@@ -859,20 +859,22 @@ Package fontspec Info:
 (fontspec)             Font family 'STIXTwoMath(1)' created for font 'STIX Two
 (fontspec)             Math' with options
 (fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
-sFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6.25-8.5,Font=STIX
-(fontspec)             Two Math,Style=MathScript},{Size=-6.25,Font=STIX Two
+sFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.84375-9.3075,Font=STI
+X
+(fontspec)             Two Math,Style=MathScript},{Size=-6.84375,Font=STIX Two
 (fontspec)             Math,Style=MathScriptScript}},RawFeature={mathfontdimen=
 xetex}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.5->"name:STIX Two
-(fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
-etex;"<6.25-8.5>"name:STIX
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <9.3075->"name:STIX
 (fontspec)             Two
 (fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
-etex;+ssty=0;"<-6.25>"name:STIX
+etex;"<6.84375-9.3075>"name:STIX
+(fontspec)             Two
+(fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
+etex;+ssty=0;"<-6.84375>"name:STIX
 (fontspec)             Two
 (fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
 etex;+ssty=1;"
@@ -896,20 +898,22 @@ Package fontspec Info:
 (fontspec)             Font family 'STIXTwoMath(2)' created for font 'STIX Two
 (fontspec)             Math' with options
 (fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
-sFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6.25-8.5,Font=STIX
-(fontspec)             Two Math,Style=MathScript},{Size=-6.25,Font=STIX Two
+sFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.84375-9.3075,Font=STI
+X
+(fontspec)             Two Math,Style=MathScript},{Size=-6.84375,Font=STIX Two
 (fontspec)             Math,Style=MathScriptScript}},RawFeature={mathfontdimen=
 xetex},RawFeature={mathfontdimen=tex2}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.5->"name:STIX Two
-(fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
-etex;mathfontdimen=tex2;"<6.25-8.5>"name:STIX
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <9.3075->"name:STIX
 (fontspec)             Two
 (fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
-etex;mathfontdimen=tex2;+ssty=0;"<-6.25>"name:STIX
+etex;mathfontdimen=tex2;"<6.84375-9.3075>"name:STIX
+(fontspec)             Two
+(fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
+etex;mathfontdimen=tex2;+ssty=0;"<-6.84375>"name:STIX
 (fontspec)             Two
 (fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
 etex;mathfontdimen=tex2;+ssty=1;"
@@ -934,20 +938,22 @@ Package fontspec Info:
 (fontspec)             Font family 'STIXTwoMath(3)' created for font 'STIX Two
 (fontspec)             Math' with options
 (fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
-sFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6.25-8.5,Font=STIX
-(fontspec)             Two Math,Style=MathScript},{Size=-6.25,Font=STIX Two
+sFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.84375-9.3075,Font=STI
+X
+(fontspec)             Two Math,Style=MathScript},{Size=-6.84375,Font=STIX Two
 (fontspec)             Math,Style=MathScriptScript}},RawFeature={mathfontdimen=
 xetex},RawFeature={mathfontdimen=tex3}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <8.5->"name:STIX Two
-(fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
-etex;mathfontdimen=tex3;"<6.25-8.5>"name:STIX
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <9.3075->"name:STIX
 (fontspec)             Two
 (fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
-etex;mathfontdimen=tex3;+ssty=0;"<-6.25>"name:STIX
+etex;mathfontdimen=tex3;"<6.84375-9.3075>"name:STIX
+(fontspec)             Two
+(fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
+etex;mathfontdimen=tex3;+ssty=0;"<-6.84375>"name:STIX
 (fontspec)             Two
 (fontspec)             Math:mode=base;script=math;language=dflt;mathfontdimen=x
 etex;mathfontdimen=tex3;+ssty=1;"
@@ -964,9 +970,9 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/STIXTwoMath(3)/b/n on input line 6.
 
 
-No file test.aux.
-
+(./test.aux)
 \openout1 = test.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
@@ -983,7 +989,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
-(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count333
 \scratchdimen=\dimen268
@@ -1034,18 +1040,18 @@ L3 programming layer <2025-12-29>
 )
 
 Here is how much of LuaTeX's memory you used:
- 20434 strings out of 476081
+ 20442 strings out of 476081
  100000,1144653 words of node,token memory allocated
  491 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 52 glue_spec,
  7 attribute_list, 2 write nodes
    avail lists: 2:198,3:143,4:22,5:22,6:2,7:146,8:1,9:81
- 42421 multiletter control sequences out of 65536+600000
- 43 fonts using 19046287 bytes
+ 42424 multiletter control sequences out of 65536+600000
+ 43 fonts using 19046111 bytes
  117i,7n,114p,409b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/stix2-otf/STIXTwoMath-Regular.
 otf>
-Output written on test.pdf (1 page, 3097 bytes).
+Output written on test.pdf (1 page, 3094 bytes).
 
 PDF statistics: 18 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream

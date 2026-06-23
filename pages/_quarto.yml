@@ -20,15 +20,14 @@ website:
         contents:
           - diaporamas/chap1.qmd
           - diaporamas/chap2.qmd
-      - section: "Exercices"
+      - section: "Travaux dirigés"
         contents:
-          - exercices/td1/enonce.qmd
-          - exercices/td2.qmd
+          - travaux-diriges/td1/td1-enonce.qmd
+          - travaux-diriges/td2.qmd
       - section: "Notebooks"
         contents: 
           - notebooks/index.qmd
           - notebooks/tp1.ipynb
-
 
 
 metadata-files:

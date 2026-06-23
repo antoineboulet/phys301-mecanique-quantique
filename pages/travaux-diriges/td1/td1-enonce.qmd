@@ -1,15 +1,22 @@
 ---
 title: "TD 1 — Fonction d’onde dans un potentiel"
 subtitle: "sous titre"
-date: "auj"
-#date-format:
-author: Antoine Boulet
+thanks: "A3 FISE ISMANS 2025-2026,  ECUE: 6.2.1"
+
 abstract: Résumé ici.
-thanks: merci
 
 cap-location: margin
 page-layout: article
 
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        svg {
+            stroke: var(--text-color);
+            }
+        </style>
 ---
 
 ## Exercice 1 (particule libre)
@@ -42,4 +49,7 @@ On considère une marche de potentiel de hauteur $V_0>0$ telle que :
 a. Chercher les fonctions d'onde des états stationnaires d'une particule d'énergie $E > V_0$.
 b. Déterminer le coefficient de réflexion des particules sur la barrière de potentiel pour des particules d'énergie $E > V_0$.
 c. Étudier les cas limites $E\to\infty$ et $E\to V_0$.
+
+
+
 

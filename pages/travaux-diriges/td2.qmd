@@ -1,5 +1,8 @@
 ---
 title: "TD 2"
+
+page-layout: article
+
 ---
 
 ## Exercice 1
