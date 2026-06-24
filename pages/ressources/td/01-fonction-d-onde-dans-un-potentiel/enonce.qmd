@@ -1,23 +1,7 @@
 ---
 title: "TD 1 · Fonction d’onde dans un potentiel"
 subtitle: "Énoncé des exercices"
-thanks: "ECUE: 6.2.1 : Mécanique Quantique — CI A3 FISE ISMANS 2025-2026"
-
 abstract: Résumé ici.
-
-cap-location: margin
-page-layout: article
-
-
-margin-header: |
-  ::: {.callout-note}
-  📄 [Exercices de TD](td1.pdf)
-  :::
-
-margin-footer: |
-  ::: {.callout-note}
-  📄 [Exercices de TD](td1.pdf)
-  :::
 ---
 
 ## Exercice 1 (particule libre)
@@ -26,6 +10,15 @@ On considère une particule se déplaçant dans une dimension en absence de pote
 a. Montrer, par séparation de variable, que la solution de l'équation de Schrödinger peut s'écrire sous la forme $\psi(x,t) = \mathrm{e}^{-\mathrm{i}Et/\hbar}\phi(x)$. Donner l'équation de Schrödinger stationnaire que doit vérifier la fonction d'onde $\phi(x)$.
 b. Montrer qu'il existe une infinité de solution de la forme $\phi(x) = \mathrm{e}^{\mathrm{i}kx}$ où $k$ est un réel à exprimer en fonction de $E$. Discuter l'hypothèse de de Broglie.
 c. En utilisant l'interprétation probabiliste, montrer que, pour une particule d'énergie $E$, la fonction d'onde obtenue n'est pas normalisable et conclure.
+
+
+
+<details>
+<summary>Voir la correction</summary>
+
+...
+
+</details>
 
 ## Exercice 2 (marche de potentiel)
 On considère une marche de potentiel de hauteur $V_0>0$ telle que :

@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: ../_site
 
-lang: fr
+thanks: "ECUE: 6.2.1 : Mécanique Quantique — CI A3 FISE ISMANS 2025-2026"
 
 website:
   navbar:
@@ -18,24 +18,23 @@ website:
         href: https://antoineboulet.github.io/ 
       - section: "Diaporamas"
         contents:
-          - diaporamas/chap1.qmd
-          - diaporamas/chap2.qmd
+          - ressources/cm/chap1.qmd
+          - ressources/cm/chap2.qmd
       - section: "Travaux dirigés"
         contents:
-          - section: "TD 1 · Fonction d’onde dans un potentiel"
+          - section: "TD 1 · Fonction d'onde dans un potentiel"
             contents:
               - text: Énoncé
-                href: td/01-fonction-d-onde-dans-un-potentiel/enonce.qmd
+                href: ressources/td/01-fonction-d-onde-dans-un-potentiel/enonce.qmd
               - text: Correction
-                href: td/01-fonction-d-onde-dans-un-potentiel/correction.qmd
+                href: ressources/td/01-fonction-d-onde-dans-un-potentiel/correction.qmd
       - section: "Notebooks"
         contents: 
-          - notebooks/index.qmd
-          - notebooks/tp1.ipynb
+          - ressources/nb/index.qmd
+          - ressources/nb/tp1.ipynb
 
 
-comments:
-  hypothesis: true
+
 
 
 
