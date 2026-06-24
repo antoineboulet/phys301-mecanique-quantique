@@ -8,6 +8,10 @@ include-in-header:
 format: 
     html:
         css: system/styles/body-sans.css
+
+comments:
+  hypothesis: false
+
 ---
 
 ## Bienvenue

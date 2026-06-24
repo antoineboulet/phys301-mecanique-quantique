@@ -22,15 +22,22 @@ website:
           - diaporamas/chap2.qmd
       - section: "Travaux dirigés"
         contents:
-          - travaux-diriges/td1/td1-enonce.qmd
-          - travaux-diriges/td2.qmd
+          - section: "TD 1 · Fonction d’onde dans un potentiel"
+            contents:
+              - text: Énoncé
+                href: td/01-fonction-d-onde-dans-un-potentiel/enonce.qmd
+              - text: Correction
+                href: td/01-fonction-d-onde-dans-un-potentiel/correction.qmd
       - section: "Notebooks"
         contents: 
           - notebooks/index.qmd
           - notebooks/tp1.ipynb
 
-filters:
-  - update-system/margin-html-figure.lua
+
+comments:
+  hypothesis: true
+
+
 
 metadata-files:
   - system/fragments/default-header.yml

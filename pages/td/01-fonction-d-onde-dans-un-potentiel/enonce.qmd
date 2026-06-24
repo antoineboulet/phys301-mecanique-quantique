@@ -1,7 +1,7 @@
 ---
-title: "TD 1 — Fonction d’onde dans un potentiel"
-subtitle: "sous titre"
-thanks: "A3 FISE ISMANS 2025-2026,  ECUE: 6.2.1"
+title: "TD 1 · Fonction d’onde dans un potentiel"
+subtitle: "Énoncé des exercices"
+thanks: "ECUE: 6.2.1 : Mécanique Quantique — CI A3 FISE ISMANS 2025-2026"
 
 abstract: Résumé ici.
 
@@ -9,8 +9,15 @@ cap-location: margin
 page-layout: article
 
 
-filters:
-  - ../../update-system/margin-html-figure.lua
+margin-header: |
+  ::: {.callout-note}
+  📄 [Exercices de TD](td1.pdf)
+  :::
+
+margin-footer: |
+  ::: {.callout-note}
+  📄 [Exercices de TD](td1.pdf)
+  :::
 ---
 
 ## Exercice 1 (particule libre)
@@ -60,3 +67,5 @@ c. Étudier les cas limites $E\to\infty$ et $E\to V_0$.
 
 ::: {.margin-html-figure base="figures/test" caption="Mon diagramme, et sa légende."}
 :::
+
+

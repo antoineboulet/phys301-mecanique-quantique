@@ -10,4 +10,27 @@ format:
     tbl-cap-location: top
     date: last-modified
     date-format: "D MMMM YYYY"
-    author: Antoine Boulet
+    #author: Antoine Boulet
+    author:
+      - name: Josiah Carberry
+        id: jc
+        orcid: 0000-0002-1825-0097
+        email: josiah@psychoceramics.org
+    affiliation: 
+      - name: Brown University
+        city: Providence
+        state: RI
+        url: www.brown.edu
+    keywords:
+      - Metaphysics
+      - String Theory
+    license: "CC BY"
+    copyright: 
+      holder: Josiah Carberry
+      year: 2008
+    citation: 
+      container-title: Journal of Psychoceramics
+      volume: 1
+      issue: 1
+      doi: 10.5555/12345678
+    funding: "The author received no specific funding for this work."
