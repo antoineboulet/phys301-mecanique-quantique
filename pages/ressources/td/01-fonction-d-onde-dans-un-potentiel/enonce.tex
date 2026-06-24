@@ -121,6 +121,13 @@
  
 
 
+\usepackage{caption}
+\captionsetup{font=footnotesize}
+
+\AtBeginDocument{
+  \renewcommand{\abstractname}{}
+  \renewcommand{\abstractname}{\vspace{-\baselineskip}}
+}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -220,7 +227,7 @@ potentiel.
   normalisable et conclure.
 \end{enumerate}
 
-Voir la correction
+\emph{Voir la correction}
 
 \ldots{}
 
@@ -236,6 +243,16 @@ On considère une marche de potentiel de hauteur \(V_0>0\) telle que :
     \end{cases}
 \end{equation}
 
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{figures/test.pdf}}
+
+}
+
+\caption{Mon diagramme \(x,y\), et sa légende.}
+
+\end{figure}%
+
 \begin{enumerate}
 \def\labelenumi{\alph{enumi}.}
 \tightlist
@@ -248,16 +265,6 @@ On considère une marche de potentiel de hauteur \(V_0>0\) telle que :
 \item
   Étudier les cas limites \(E\to\infty\) et \(E\to V_0\).
 \end{enumerate}
-
-\begin{figure}[H]
-
-{\centering \pandocbounded{\includegraphics[keepaspectratio]{figures/test.pdf}}
-
-}
-
-\caption{Mon diagramme, et sa légende.}
-
-\end{figure}%
 
 
 

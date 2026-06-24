@@ -11,10 +11,13 @@ a. Montrer, par séparation de variable, que la solution de l'équation de Schr�
 b. Montrer qu'il existe une infinité de solution de la forme $\phi(x) = \mathrm{e}^{\mathrm{i}kx}$ où $k$ est un réel à exprimer en fonction de $E$. Discuter l'hypothèse de de Broglie.
 c. En utilisant l'interprétation probabiliste, montrer que, pour une particule d'énergie $E$, la fonction d'onde obtenue n'est pas normalisable et conclure.
 
+::: {.indication titre="Indication 1"}
+Votre texte ici
+:::
 
 
 <details>
-<summary>Voir la correction</summary>
+<summary>*Voir la correction*</summary>
 
 ...
 
@@ -30,24 +33,11 @@ On considère une marche de potentiel de hauteur $V_0>0$ telle que :
     \end{cases}
 \end{equation}
 
-
-<!--
-::: {.column-margin}
-::: {.content-visible when-format="html"}
-::: {.light-content}
-![Mon diagramme, et sa légende.](figures/test-light.svg){fig-align="center"}
+::: {.margin-html-figure base="figures/test" caption="Mon diagramme $x,y$, et sa légende."}
 :::
 
-::: {.dark-content}
-![Mon diagramme, et sa légende.](figures/test-dark.svg){fig-align="center"}
-:::
-:::
-:::
 
-::: {.content-visible when-format="pdf"}
-![Mon diagramme, et sa légende.](figures/test.pdf){fig-align="center"}
-:::
--->
+
 
 a. Chercher les fonctions d'onde des états stationnaires d'une particule d'énergie $E > V_0$.
 b. Déterminer le coefficient de réflexion des particules sur la barrière de potentiel pour des particules d'énergie $E > V_0$.
@@ -57,8 +47,5 @@ c. Étudier les cas limites $E\to\infty$ et $E\to V_0$.
 
 
 
-
-::: {.margin-html-figure base="figures/test" caption="Mon diagramme, et sa légende."}
-:::
 
 

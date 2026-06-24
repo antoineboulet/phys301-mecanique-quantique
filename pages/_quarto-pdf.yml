@@ -8,10 +8,20 @@ format:
     fontsize: 11pt
     fig-cap-location: bottom
     tbl-cap-location: top
-    date: last-modified
+    date: today
     date-format: "D MMMM YYYY"
 
     author:
       - name: Antoine Boulet
         orcid: 0000-0003-3839-6090
         email: antoine.boulet+pdf@protonmail.com
+
+    include-in-header:
+      text: |
+        \usepackage{caption}
+        \captionsetup{font=footnotesize}
+
+        \AtBeginDocument{
+          \renewcommand{\abstractname}{}
+          \renewcommand{\abstractname}{\vspace{-\baselineskip}}
+        }

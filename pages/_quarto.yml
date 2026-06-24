@@ -4,6 +4,11 @@ project:
 
 thanks: "ECUE: 6.2.1 : Mécanique Quantique — CI A3 FISE ISMANS 2025-2026"
 
+
+filters:
+  - hint.lua
+
+
 website:
   navbar:
     right:
