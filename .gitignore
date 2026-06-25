@@ -1,22 +1,22 @@
+# quarto
 .quarto/
 _site/
 /.luarc.json
+
+# batch files (windows)
 *.bat
 
+# LaTeX
+*.log
+*.aux
+*.toc
 
-
-# Book : artefacts intermédiaires de rendu LaTeX/EPUB
-book/_book/
-book/*.log
-book/*.aux
-book/*.toc
-
-# Système
+# system
 .DS_Store
 *.Rproj.user
 .Rhistory
 
-# Environnements Python locaux éventuels
+# python
 .venv/
 __pycache__/
 

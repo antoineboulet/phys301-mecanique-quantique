@@ -5,9 +5,6 @@ project:
 thanks: "ECUE: 6.2.1 : Mécanique Quantique — CI A3 FISE ISMANS 2025-2026"
 
 
-filters:
-  - hint.lua
-
 
 website:
   navbar:
@@ -47,8 +44,11 @@ metadata-files:
   - system/fragments/default-header.yml
   - system/fragments/default-theme.yml
   - system/fragments/default-website.yml
+
   - system/fragments/page-header.yml
   - system/fragments/page-theme.yml
   - system/fragments/page-website.yml
+
   - system/fragments/main-navbar-fr.yml
+  
   - system/fragments/lang-fr.yml
