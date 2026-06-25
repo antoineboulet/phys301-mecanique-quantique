@@ -26,7 +26,7 @@ bibliography: references.bib
 metadata-files:
   - system/fragments/default-header.yml
   - system/fragments/default-theme.yml
-  - system/fragments/default-book.yml
+  #- system/fragments/default-book.yml
 
   - system/fragments/book-header.yml
   - system/fragments/book-theme.yml
