@@ -2,9 +2,7 @@ project:
   type: website
   output-dir: ../_site
 
-thanks: "ECUE: 6.2.1 : Mécanique Quantique — CI A3 FISE ISMANS 2025-2026"
-
-
+thanks: "ECUE: 6.3.2 : Mécanique Quantique — CI ISMANS A3 FISE"
 
 website:
   navbar:
@@ -13,8 +11,6 @@ website:
         href: https://antoineboulet.github.io/phys301-mecanique-quantique/
 
   sidebar:
-    style: "docked"
-    collapse-level: 1
     contents:
       - text: "Notes de cours"
         href: https://antoineboulet.github.io/ 
@@ -34,11 +30,6 @@ website:
         contents: 
           - ressources/nb/index.qmd
           - ressources/nb/tp1.ipynb
-
-
-
-
-
 
 metadata-files:
   - system/fragments/default-header.yml
