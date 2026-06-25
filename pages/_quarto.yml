@@ -32,14 +32,6 @@ website:
           - ressources/nb/tp1.ipynb
 
 metadata-files:
-  - system/fragments/default-header.yml
-  - system/fragments/default-theme.yml
-  - system/fragments/default-website.yml
-
-  - system/fragments/page-header.yml
-  - system/fragments/page-theme.yml
-  - system/fragments/page-website.yml
-
-  - system/fragments/main-navbar-fr.yml
-  
+  - system/fragments/default.yml
+  - system/fragments/pages.yml  
   - system/fragments/lang-fr.yml

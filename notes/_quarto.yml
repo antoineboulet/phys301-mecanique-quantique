@@ -24,16 +24,7 @@ bibliography: references.bib
 
 
 metadata-files:
-  - system/fragments/default-header.yml
-  - system/fragments/default-theme.yml
-  #- system/fragments/default-book.yml
-
-  - system/fragments/book-header.yml
-  - system/fragments/book-theme.yml
-  - system/fragments/book-website.yml
-
-  - system/fragments/main-navbar-fr.yml
-  
+  - system/fragments/default.yml
+  - system/fragments/notes.yml
   - system/fragments/lang-fr.yml
-
   - system/fragments/latex-book.yml
