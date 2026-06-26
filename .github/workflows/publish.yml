@@ -37,6 +37,8 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Installer Python (si besoin pour exécuter du code dans les .qmd)
         uses: actions/setup-python@v5
@@ -67,7 +69,7 @@ jobs:
             window.location.replace("/fr/system/404.html");
           </script>
           EOF
-          
+
       - name: Upload de l'artifact Pages
         uses: actions/upload-pages-artifact@v3
         with:
