@@ -60,6 +60,14 @@ jobs:
           echo "Contenu de _site/ :"
           find _site -maxdepth 2
 
+      - name: Générer 404.html à la racine
+        run: |
+          cat > _site/404.html << 'EOF'
+          <script>
+            window.location.replace("/fr/system/404.html");
+          </script>
+          EOF
+          
       - name: Upload de l'artifact Pages
         uses: actions/upload-pages-artifact@v3
         with:
